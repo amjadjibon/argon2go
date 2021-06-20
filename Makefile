@@ -5,5 +5,8 @@ change-version:
 update:
 	go get -v golang.org/x/crypto
 
+run:
+	go run bin/main.go
+
 push:
 	git push origin master

@@ -6,7 +6,7 @@ import (
 )
 
 func TestGenerateRandomBytes(t *testing.T) {
-	bytes, err := generateRandomBytes(16)
+	bytes, err := GenerateRandomBytes(16)
 	if err != nil {
 		t.Error(err)
 	}
